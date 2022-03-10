@@ -1,0 +1,547 @@
+/* ======================================
+    
+
+    Author: Nahidul Ialam Rafi
+    website: example.com
+    mail: nahidulrafidps@gmail.com
+
+
+====================================== */
+
+/*
+
+    =====index=====
+    1. Header
+    2. Fusce at          
+    3. Facilisis          
+    4. Ante donec          
+    5. Blandit rhoncus          
+    6. Placerat
+    7. Footer 
+
+*/
+
+/* 
+
+    === Colors ===
+    1. #edeff1
+    2. #dd4b2b
+    3. #31353e
+    4. #4b4e73
+    5. #d75d0e 
+
+    === Fonts ===
+    1. font-family: 'Open Sans', sans-serif;
+    2. font-family: 'Playfair Display', serif;
+*/
+
+/* Theme CSS */
+
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+hr {
+  margin: 0 auto;
+  color: #f3ad09;
+  border: 2px solid #f3ad09;
+}
+
+p,
+a,
+small {
+  font-family: "Open Sans", sans-serif;
+}
+
+small {
+  color: #b9b9b9;
+  font-size: 11px;
+}
+
+.button-def {
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 16px;
+  color: #111111;
+  background-color: #e8bf5d;
+  padding: 10px 40px;
+  border: none;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+}
+
+.button-def:hover {
+  color: #000000;
+  background-color: #f3ad09;
+}
+
+/* Nav Section */
+.cstm-navbar {
+  background-color: white;
+  padding: 20px 0px !important;
+}
+
+.nav-link {
+  color: black;
+  transition: 0.1s ease-in-out;
+  margin-left: 15px;
+}
+
+.nav-link.active {
+  border-bottom: 3px solid #e8bf5d !important;
+  color: #050505 !important;
+}
+
+.nav-link:hover {
+  color: #612316 !important;
+}
+
+/* Header Section */
+header {
+  background-image: url(../assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 410px;
+  position: relative;
+  padding-bottom: 80px;
+  color: #edeff1;
+  margin-top: 88px;
+}
+
+.head-text {
+  border-left: 2px solid #e8bf5d;
+}
+
+header button {
+  margin-top: 20px;
+}
+
+/* about Section */
+.side-span {
+  display: inline-block;
+  border-right: 2px solid #e8bf5d;
+  height: 80px;
+  width: 0px;
+
+}
+
+.sec-text {
+  height: 90px;
+  display: inline-block;
+  margin: 10px 10px;
+  border-left: 2px solid #e8bf5d;
+}
+
+.sec-text p {
+  font-family: "Playfair Display",
+    serif;
+  font-size: 15px !important;
+}
+
+th,
+tr,
+td {
+  width: auto !important;
+}
+
+/* Practice Section */
+.practice {
+  background-color: #111111;
+  color: white;
+}
+
+.practice-content {
+  padding: 10px 40px;
+}
+
+.practice p {
+  color: #b9b9b9;
+}
+
+.practice-logo {
+  text-align: right;
+}
+
+.practice i {
+  display: inline-block;
+  color: #e8bf5d;
+  font-size: 38px;
+
+}
+
+.practice-text {
+  display: inline-block;
+  padding-right: 64px !important;
+}
+
+.practice-text p {
+  font-size: 15px;
+  text-align: left;
+  padding-right: 50px;
+}
+
+/* Lawyers Section */
+.lawyer-box {
+  transition: 0.4s ease-in-out;
+}
+
+.lawyer-box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.lawyers h6 {
+  margin-top: 20px;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+/* Testimony Section */
+.testimony {
+  background-image: url(../assets/carousel-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.testimony h1 {
+  font-size: 94px;
+  color: #b9b9b9;
+}
+
+.carousel-indicators li {
+  height: 8px;
+  width: 8px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
+
+/* Publication Section */
+.publication p {
+  font-size: 13px;
+}
+
+.publication span {
+  color: #666666;
+}
+
+.pub-text {
+  font-size: 12px;
+  color: #666666;
+}
+
+.publication hr {
+  width: 88%;
+}
+
+.card {
+  border: none;
+}
+
+/* FAQ Section */
+.faq-item i {
+  font-size: 12px;
+  color: white;
+}
+
+
+.faq-item {
+  border-bottom: 2px solid #e8bf5d;
+  margin-top: 10px;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
+}
+
+.faq-text {
+  padding: 0;
+}
+
+.faq-text p {
+  margin-bottom: 4px;
+}
+
+.faq-p {
+  padding: 0;
+}
+
+.clp {
+  background-color: #e8bf5d;
+  border-radius: 6px;
+  margin-top: 20px;
+  transition: 0.7s ease-in-out;
+}
+
+.clp p {
+  padding: 25px;
+  color: #111111;
+  font-size: 15px;
+}
+
+.side-text {
+  transition: 0.7s ease-in-out;
+}
+
+.side-text p {
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Contact Section */
+.form-control {
+  margin-top: 15px;
+}
+
+.form-control::placeholder {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.frm {
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  border-radius: 0px;
+}
+
+.map {
+  position: relative;
+}
+
+.square {
+  height: 75%;
+  width: 100%;
+}
+
+.map-child {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 28px;
+  right: 28px;
+}
+
+/* Footer */
+footer {
+  color: #b9b9b9;
+  padding: 0 30px;
+}
+
+.footer-logo {
+  text-align: right;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 12px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  header {
+    padding-top: 280px;
+    padding-bottom: 70px;
+  }
+
+  section {
+    padding: 70px 0;
+  }
+
+  .testimony h1 {
+    font-size: 40px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .lawyer-box {
+    text-align: center;
+  }
+
+  .practice-content {
+    text-align: center;
+  }
+
+  .practice-logo {
+    text-align: center;
+  }
+
+  .practice-text {
+    margin-top: 20px;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .practice-text p {
+    padding: 0 !important;
+    text-align: center;
+  }
+}
+
+.sec-text p {
+  font-size: 13px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .testimony h1 {
+    font-size: 60px;
+  }
+
+  .sec-text p {
+    font-size: 13px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .lawyer-box {
+    text-align: center;
+  }
+
+  .practice-content {
+    text-align: center;
+  }
+
+  .practice-logo {
+    text-align: center;
+  }
+
+  .practice-text {
+    margin-top: 20px;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .practice-text p {
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .testimony h1 {
+    font-size: 60px;
+  }
+
+  .lawyer-box {
+    text-align: center;
+  }
+
+  .practice-text p {
+    padding-right: 0;
+  }
+
+  .map {
+    position: relative;
+  }
+
+  .square {
+    height: 200px;
+    width: 200px;
+  }
+
+  .map-child {
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    top: 33px;
+    right: -28px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .map-child {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: 28px;
+    right: 28px;
+  }
+
+  .practice-text p {
+    padding-right: 0px;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  .footer-logo {
+    text-align: right;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .map-child {
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    top: 28px;
+    right: 28px;
+  }
+
+  .carousel-indicators {
+    right: 140px;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  .footer-logo {
+    text-align: right;
+  }
+}
