@@ -295,6 +295,7 @@ td {
   border-radius: 6px;
   margin-top: 20px;
   transition: 0.7s ease-in-out;
+  box-shadow: 0px 0px 18px #e8be5d94;
 }
 
 .clp p {
